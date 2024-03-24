@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^4.0.8",
+    "@devexpress/dx-react-core": "^4.0.8",
+    "modules": "^0.4.0"
+  }
+}

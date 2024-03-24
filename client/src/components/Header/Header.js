@@ -1,3 +1,4 @@
+import ima from './FF.jpg'
 import React, { useState, useEffect } from 'react'
 import { useHistory, useLocation } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -116,7 +117,7 @@ const Header = () => {
 
     if(!user) return (
         <div className={styles.header2}>
-         <img style={{width: '50px', cursor: 'pointer'}} onClick={()=> history.push('/')} src="https://i.postimg.cc/hGZKzdkS/logo.png" alt="arc-invoice" />
+         <img style={{width: '50px', cursor: 'pointer'}} onClick={()=> history.push('/')} src={ima} alt="arc-invoice" />
         <button onClick={()=> history.push('/login')} className={styles.login}>Get started</button>
         </div>
     )

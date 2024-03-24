@@ -5,7 +5,7 @@ import { useHistory, useLocation } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { getInvoicesByUser } from '../../actions/invoiceActions'
 import Empty from '../svgIcons/Empty'
-import Chart from './Chart'
+// import Chart from './Chart'
 // import Donut from './Donut'
 import moment from 'moment'
 import { Check, Pie, Bag, Card, Clock, Frown } from './Icons'
@@ -178,11 +178,11 @@ const Dashboard = () => {
 
             </section>
 
-            {paymentHistory.length !== 0 && (
+            {/* {paymentHistory.length !== 0 && (
             <section>
                 <Chart paymentHistory={paymentHistory} />
             </section>
-            )}
+            )} */}
 
                 <section>
                 <h1 style={{textAlign: 'center', padding: '30px' }}>{paymentHistory.length ? 'Recent Payments' : 'No payment received yet'}</h1>
@@ -207,6 +207,7 @@ const Dashboard = () => {
                                 <td><button>{record?.paidBy?.charAt(0)}</button></td>
                                 <td>{record.paidBy}</td>
                                 <td>{moment(record.datePaid).format('MMMM Do YYYY')}</td>
+                                
                                 <td><h3 style={{color: '#00A86B', fontSize: '14px'}} >{toCommas(record.amountPaid)}</h3></td>
                                 <td>{record.paymentMethod}</td>
                                 <td>{record.note}</td>

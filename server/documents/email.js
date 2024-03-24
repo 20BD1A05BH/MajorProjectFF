@@ -148,11 +148,11 @@ hr {
         </div>
         
       <div class"footer">
-          <a href="https://accountill.com">
-          <img class="footer-logo" src="https://i.postimg.cc/hGZKzdkS/logo.png" alt="arc-invoice"/>
-        </a>
+          
+      <img class="footer-logo" src="https://i.postimg.cc/QCccgX0t/FF.jpg" alt="arc-invoice"/>
+        
       </div>
-    <p style="text-align: center">Make beautiful invoice for free at accountill.com</p>
+      <p style="text-align: center">Make beautiful invoices for free at FinanceForge</p>
     </div>
     </body>
 </html>`
